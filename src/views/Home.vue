@@ -1,6 +1,7 @@
 <template>
   <div class="row" style="width:100%;height:100%;">
         <div class="col-sm-12 col-md-12 col-lg-12">
+            <a class="btn btn-primary" @click="logOut" >Log Out</a>
             <table class="table table-striped table-hover">
                 <thead class="thead-dark">
                     <tr>
@@ -34,6 +35,12 @@ export default{
     data() {
         return {
             
+        }
+    },
+    methods: {
+        logOut(){
+            this.$store.state.userData=[]
+            this.$router.push('/Login')
         }
     },
     computed:{
