@@ -1,0 +1,44 @@
+{
+  "orders": [
+    {
+      "id": 0,
+      "address": "C/Ausiàs March n5 p6",
+      "state": 3,
+      "timestamp": "17/12/2001"
+    },
+    {
+      "id": 1,
+      "address": "FRNAÒDSAIDOISDA",
+      "state": 2,
+      "timestamp": "19/2/2201"
+    }
+  ],
+  "states": [
+    {
+      "id": 0,
+      "name": "Preparado"
+    },
+    {
+      "id": 1,
+      "name": "En ruta"
+    },
+    {
+      "id": 2,
+      "name": "Entregado"
+    },
+    {
+      "id": 3,
+      "name": "No entregado por varios motivos"
+    }
+  ],
+  "users": [
+    {
+      "id": 0,
+      "email": "hola",
+      "password": "hola",
+      "name": "Paco",
+      "surname": "francisco",
+      "token": "asdfasdfasdfasdfasdf"
+    }
+  ]
+}
